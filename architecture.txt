@@ -1,0 +1,14 @@
+pdf_merger/
+│
+├── requirements.txt             # Dépendances du projet
+├── main.py                      # Point d'entrée de l'application
+├── app/
+│   ├── __init__.py              # Initialisation du package
+│   ├── pdf_merger_app.py        # Classe principale de l'application
+│   └── utils/
+│       ├── __init__.py          # Initialisation du sous-package
+│       └── pdf_utils.py         # Fonctions utilitaires pour la manipulation des PDF
+├── resources/
+│   └── icons/                   # Dossier pour stocker les icônes éventuelles
+└── docs/
+    └── README.md                # Documentation du projet
