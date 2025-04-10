@@ -36,7 +36,7 @@ Dans l'interface graphique :
 3. Cliquez sur "Fusionner les PDF" pour créer le document final
 4. Choisissez l'emplacement où enregistrer le fichier fusionné
 
-## Structure du projet
+## Architecture du projet
 
 ```
 PDF_MERGER/
@@ -51,8 +51,8 @@ PDF_MERGER/
 │       └── pdf_utils.py         # Fonctions utilitaires pour la manipulation des PDF
 ├── resources/
 │   └── icons/                   # Dossier pour stocker les icônes éventuelles
-└── docs/
-    └── README.md                # Documentation du projet
+└── README.md                    # Documentation du projet
+
 ```
 
 ## Dépendances
